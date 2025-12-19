@@ -1,6 +1,6 @@
 # ⚠️ Disclaimer
 **This tool is for educational purposes only.**
-Please respect YouTube's Terms of Service. Only download content if you have permission from the creator or if your usage falls under Fair Use guidelines. The creator of this tool is not responsible for any misuse.
+Please respect YouTube's Terms of Service. Only download content if you have permission from the creator or if your usage falls under Fair Use guidelines. The creator of this tool is not responsible for any misuse. works on 1000+ websites
 
 ---
 
@@ -81,3 +81,4 @@ Feel free to fork this repository and submit pull requests.
 
 ## 📄 License
 This project is open-source and available for personal use.
+
