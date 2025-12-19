@@ -78,7 +78,7 @@ def download_video(url):
     try:
         with yt_dlp.YoutubeDL(ydl_opts_download) as ydl:
             ydl.download([url])
-            print("\n✅ Download complete!")
+            print("\n Download complete!")
     except Exception as e:
         print(f"Download error: {e}")
 
@@ -103,4 +103,5 @@ if __name__ == "__main__":
             
         except KeyboardInterrupt:
             print("\n\nStopping program... Goodbye!")
+
             sys.exit()
