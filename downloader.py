@@ -46,7 +46,7 @@ def download_video(url):
             options_map = {} 
             for i, res in enumerate(sorted_res):
                 size = resolutions[res]
-                label = f"{res}p (~{size:.1f} MB)" if size > 0 else f"{res}p"
+                label = f"{res}p (Max ~{size:.1f} MB)" if size > 0 else f"{res}p"
                 print(f"{i+1}. {label}")
                 options_map[i+1] = res
             
@@ -105,3 +105,4 @@ if __name__ == "__main__":
             print("\n\nStopping program... Goodbye!")
 
             sys.exit()
+
